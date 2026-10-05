@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -277,10 +276,6 @@
     <!-- ================= NAVBAR ================= -->
 
     <nav>
-
-        <div class="logo">
-            ADC
-        </div>
 
         <div class="links">
             <a href="#about">About</a>
