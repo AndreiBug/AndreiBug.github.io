@@ -149,6 +149,21 @@
             color: var(--text);
             border: 1px solid var(--border);
         }
+        
+        .profile-picture {
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 4px solid var(--primary);
+            margin-bottom: 25px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+        }
+
+        .profile-picture:hover {
+            transform: scale(1.05);
+        }
 
         /* SECTIONS */
 
@@ -296,7 +311,11 @@
     <!-- ================= HERO ================= -->
 
     <div class="hero">
-
+    
+        <img src="profile.jpg" 
+         alt="Andrei-Darius Costache" 
+         class="profile-picture">
+         
         <h1>Andrei-Darius Costache</h1>
 
         <h2>Junior QA Engineer & Computer Science Student</h2>
