@@ -312,7 +312,7 @@
 
     <div class="hero">
     
-        <img src="profile.jpg" 
+        <img src="pupic.png" 
          alt="Andrei-Darius Costache" 
          class="profile-picture">
          
